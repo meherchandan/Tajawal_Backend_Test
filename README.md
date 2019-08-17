@@ -69,6 +69,19 @@ Please setup below tools before running the test
     ├── surefire-reports
     └── test-classes
  ```
+ ### Package Structure
+ - **com.tajawal.test.steps.tajawalservicesimp** - Package where all steps files has been created. Seperate step files has been created for both services, however some steps contains duplicate code. This can be rectified.
+ 
+ - **src.test.resources.features.services** - All feature files stored on this location. One feature file has been created per service. It includes both positive and negative testcases.
+ 
+ - **package com.tajawal.test.runCukes** - Package for all the runner files. Seperate package has been created for both the services. Each test case is mapped with tags defined in corresponding feature file.
+ 
+ - **com.tajawal.test.pages** - Page file has been defined for both services which contains details method mapped to steps files.
+ 
+ - **com.tajawal.test.framework.helpers** - Multiple helpers has been defined which contains static methods. This include method to send and recieve the request, date formatting, property file reader and common method used across the framework.
+ 
+- **src.test.resources** - Service Schema files and config files has been defined on the resources root folder.
+
 
 ## Running the tests
 
