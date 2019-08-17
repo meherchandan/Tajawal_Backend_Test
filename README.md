@@ -3,7 +3,9 @@ This project is created for the assignment submission of QA Backend Test for Taj
 
 ### Getting Started
 Clone this repo to your local machine using https://github.com/meherchandan/Tajawal_Backend_Test.git
-
+```shell
+$ git clone https://github.com/meherchandan/Tajawal_Backend_Test.git
+```
 ### Prerequisites
 Please setup below tools before running the test
 1. Java 8 or higher
