@@ -1,5 +1,5 @@
 # Tajawal_Backend_Test
-This project is created for the assignment submission for QA Backend Test for Tajawal.
+This project is created for the assignment submission of QA Backend Test for Tajawal.
 
 ### Getting Started
 Clone this repo to your local machine using https://github.com/meherchandan/Tajawal_Backend_Test.git
