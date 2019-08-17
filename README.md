@@ -10,7 +10,67 @@ Please setup below tools before running the test
 2. Maven
 
 ## Project Structure
-
+```shell
+├── README.md
+├── pom.xml
+├── src
+│   ├── main
+│   │   └── java
+│   └── test
+│       ├── java
+│       │   └── com
+│       │       └── tajawal
+│       │           └── test
+│       │               ├── framework
+│       │               │   └── helpers
+│       │               │       ├── BaseHelper.java
+│       │               │       ├── DateHelper.java
+│       │               │       ├── PropertyHelper.java
+│       │               │       └── SendRequest.java
+│       │               ├── pages
+│       │               │   ├── getgeoservice
+│       │               │   │   └── getGeoServiceImplementation.java
+│       │               │   └── posthotelsearch
+│       │               │       └── PostHotelSearchImplemenation.java
+│       │               ├── runCukes
+│       │               │   ├── getgeosuggest
+│       │               │   │   ├── TC001_GetGeoTest.java
+│       │               │   │   └── TC002_GetGeoTest.java
+│       │               │   └── posthotelsearch
+│       │               │       ├── TC001_PostHotelSearchTest.java
+│       │               │       ├── TC002_PostHotelSearchTest.java
+│       │               │       ├── TC003_PostHotelSearchTest.java
+│       │               │       ├── TC004_PostHotelSearchTest.java
+│       │               │       ├── TC005_PostHotelSearchTest.java
+│       │               │       ├── TC006_PostHotelSearchTest.java
+│       │               │       └── TC007_PostHotelSearchTest.java
+│       │               └── steps
+│       │                   └── tajawalservicesimpl
+│       │                       ├── GeoSuggestSteps.java
+│       │                       └── HotelSearchSteps.java
+│       ├── resources
+│       │   ├── config.properties
+│       │   ├── features
+│       │   │   └── services
+│       │   │       ├── geo-suggest.feature
+│       │   │       └── hotel-search.feature
+│       │   ├── geo-suggest-schema.json
+│       │   ├── hotel-search.json
+│       │   └── serviceFiles
+│       │       └── geo-suggest.json
+│       └── test.iml
+└── target
+    ├── cucumber-report
+    │   ├── geo-suggest
+    │   └── hotel-search
+    ├── html-reports
+    │   ├── geo-suggest
+    │   └── hotel-search
+    ├── logs
+    ├── maven-status
+    ├── surefire-reports
+    └── test-classes
+ ```
 
 ## Running the tests
 
