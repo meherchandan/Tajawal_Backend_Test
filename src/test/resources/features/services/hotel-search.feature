@@ -93,6 +93,6 @@ Then Verify no cookies available in hotel-search response
 
 Examples:
 |scenarioName          |description          |checkin|checkout|destination|placeid                      |guest1          |   guest2|
-|TC006_hotel-search_TD1|checkout date missing|7      |      |Paris      | ChIJD7fiBh9u5kcRYJSMaMOCCwQ|    2_ADT-1_CHD@3| 3_ADT|  
-|TC006_hotel-search_TD2|checkin date missing|        | 7    |Paris      | ChIJD7fiBh9u5kcRYJSMaMOCCwQ|    2_ADT-1_CHD@3| 3_ADT|  
-|TC006_hotel-search_TD3|both dates missing  |        |      |Paris      | ChIJD7fiBh9u5kcRYJSMaMOCCwQ|    2_ADT-1_CHD@3| 3_ADT|  
+|TC006_hotel-search_TD1|checkout date missing|7      |      |Paris      | ChIJD7fiBh9u5kcRYJSMaMOCCwQ|    2_ADT-1_CHD@1| 3_ADT|  
+|TC006_hotel-search_TD2|checkin date missing|        | 7    |Paris      | ChIJD7fiBh9u5kcRYJSMaMOCCwQ|    2_ADT-1_CHD@2| 1_ADT|  
+|TC006_hotel-search_TD3|both dates missing  |        |      |Paris      | ChIJD7fiBh9u5kcRYJSMaMOCCwQ|    2_ADT-1_CHD@3| 2_ADT-1_CHD@2|  

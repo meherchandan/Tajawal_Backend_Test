@@ -77,7 +77,7 @@ public class HotelSearchSteps {
 
 	@Then("^Verify the hotel-search service response schema$")
 	public void verify_the_hotel_search_service_response_schema() throws Throwable {
-		// SendRequest.verifyServiceSchema(response, "hotel-search.json");
+		 SendRequest.verifyServiceSchema(response, "hotel-search.json");
 	}
 
 	@Then("^Verify the hotel-search service response headers and primary cookies$")
