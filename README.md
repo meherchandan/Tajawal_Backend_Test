@@ -56,8 +56,6 @@ Please setup below tools before running the test
 │       │   │       └── hotel-search.feature
 │       │   ├── geo-suggest-schema.json
 │       │   ├── hotel-search.json
-│       │   └── serviceFiles
-│       │       └── geo-suggest.json
 │       └── test.iml
 └── target
     ├── cucumber-report
