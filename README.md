@@ -57,6 +57,8 @@ Verify the cookies received
 Verify the headers
 Verify the subsequent request with cookies
 Comparision the response for with and without cookies request
+Verify the response with different data combinations
+Verify the response error messages for bad requests
 Verify service response when no result found
 ```
 
