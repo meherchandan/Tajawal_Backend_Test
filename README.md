@@ -113,6 +113,7 @@ Compare the response for with and without cookies request
 Verify the response with different dates, room and guest combinations
 Verify the response error messages for bad requests
 ```
+##### Note- Some tests has been added for failed scenarios as well
 
 ## Request and Response Logging
 
