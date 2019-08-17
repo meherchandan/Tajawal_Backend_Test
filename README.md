@@ -76,8 +76,7 @@ Please setup below tools before running the test
 
 Open command prompt/Terminal
 Go to the project directory
-To run all the test:-
-Run 
+To run all the test:- 
 ```shell
 $ mvn clean test
 ```
