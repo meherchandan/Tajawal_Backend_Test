@@ -94,7 +94,7 @@ Verify response data for null and empty data check
 Verify the cookies received in the response
 Verify the headers
 Verify the subsequent request with cookies
-Comparision the response for with and without cookies request
+Compare the response for with and without cookies request
 Verify service response when no result found
 Verify response for service request with invalid cookies values
 ```
@@ -111,7 +111,7 @@ Verify response data for null and empty data check
 Verify the cookies received
 Verify the headers
 Verify the subsequent request with cookies
-Comparision the response for with and without cookies request
+Compare the response for with and without cookies request
 Verify the response with different dates, room and guest combinations
 Verify the response error messages for bad requests
 ```
