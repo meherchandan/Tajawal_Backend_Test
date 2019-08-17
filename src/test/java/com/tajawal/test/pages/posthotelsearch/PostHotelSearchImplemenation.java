@@ -21,8 +21,8 @@ public class PostHotelSearchImplemenation {
 
 		JSONObject dates = new JSONObject();
 		String format = "dd-MM-yyyy";
-		String checkin = checkinDate.isEmpty() ? "14" : checkinDate;
-		String checkout = checkoutDate.isEmpty() ? "15" : checkoutDate;
+		String checkin = checkinDate.isEmpty() ? "13" : checkinDate;
+		String checkout = checkoutDate.isEmpty() ? "14" : checkoutDate;
 		String checkinDateModified = DateHelper.getModifiedDate(Integer.parseInt(checkin), format);
 		String checkoutDateModified = DateHelper.getModifiedDate(Integer.parseInt(checkout), format);
 		if(!checkinDate.isEmpty())
