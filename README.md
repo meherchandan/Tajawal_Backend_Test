@@ -89,7 +89,7 @@ After running the tests, test result in HTML and JSON format can be found inside
 
 * [Rest-Assured](http://rest-assured.io/) - Web service testing tool
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [Java](https://www.java.com/)
+* [Java](https://www.java.com/) - Programming Language
 * [Cucumber](https://cucumber.io/) - BDD framework
 * [Junit](https://junit.org/) - Unit testing framework
 
