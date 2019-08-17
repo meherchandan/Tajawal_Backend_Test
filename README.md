@@ -43,7 +43,6 @@ Please setup below tools before running the test
 │       │               │       ├── TC004_PostHotelSearchTest.java
 │       │               │       ├── TC005_PostHotelSearchTest.java
 │       │               │       ├── TC006_PostHotelSearchTest.java
-│       │               │       └── TC007_PostHotelSearchTest.java
 │       │               └── steps
 │       │                   └── tajawalservicesimpl
 │       │                       ├── GeoSuggestSteps.java
@@ -56,7 +55,6 @@ Please setup below tools before running the test
 │       │   │       └── hotel-search.feature
 │       │   ├── geo-suggest-schema.json
 │       │   ├── hotel-search.json
-│       └── test.iml
 └── target
     ├── cucumber-report
     │   ├── geo-suggest
