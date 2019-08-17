@@ -80,10 +80,6 @@ To run all the test:-
 ```shell
 $ mvn clean test
 ```
-To Run the test for specific feature:
-```shell
-$ mvn clean test
-```
 You can also run the specific test using your preferred IDE(Eclipse, intellij)
 
 ## Break down into end to end tests
