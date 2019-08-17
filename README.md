@@ -1,9 +1,11 @@
 # Tajawal_Backend_Test
-This project is created for the assignment submission for QA Backend Test for Tajawal.
+This project is created for the assignment submission of QA Backend Test for Tajawal.
 
 ### Getting Started
 Clone this repo to your local machine using https://github.com/meherchandan/Tajawal_Backend_Test.git
-
+```shell
+$ git clone https://github.com/meherchandan/Tajawal_Backend_Test.git
+```
 ### Prerequisites
 Please setup below tools before running the test
 1. Java 8 or higher
@@ -43,7 +45,6 @@ Please setup below tools before running the test
 │       │               │       ├── TC004_PostHotelSearchTest.java
 │       │               │       ├── TC005_PostHotelSearchTest.java
 │       │               │       ├── TC006_PostHotelSearchTest.java
-│       │               │       └── TC007_PostHotelSearchTest.java
 │       │               └── steps
 │       │                   └── tajawalservicesimpl
 │       │                       ├── GeoSuggestSteps.java
@@ -56,7 +57,6 @@ Please setup below tools before running the test
 │       │   │       └── hotel-search.feature
 │       │   ├── geo-suggest-schema.json
 │       │   ├── hotel-search.json
-│       └── test.iml
 └── target
     ├── cucumber-report
     │   ├── geo-suggest
@@ -69,6 +69,19 @@ Please setup below tools before running the test
     ├── surefire-reports
     └── test-classes
  ```
+ ### Package Structure
+ - **com.tajawal.test.steps.tajawalservicesimp** - Package where all steps files has been created. Seperate step files has been created for both services, however some steps contains duplicate code. This can be rectified.
+ 
+ - **src.test.resources.features.services** - All feature files stored on this location. One feature file has been created per service. It includes both positive and negative testcases.
+ 
+ - **package com.tajawal.test.runCukes** - Package for all the runner files. Seperate package has been created for both the services. Each test case is mapped with tags defined in corresponding feature file.
+ 
+ - **com.tajawal.test.pages** - Page file has been defined for both services which contains details method mapped to steps files.
+ 
+ - **com.tajawal.test.framework.helpers** - Multiple helpers has been defined which contains static methods. This include method to send and recieve the request, date formatting, property file reader and common method used across the framework.
+ 
+- **src.test.resources** - Service Schema files and config files has been defined on the resources root folder.
+
 
 ## Running the tests
 
@@ -117,7 +130,9 @@ Verify the response error messages for bad requests
 
 ## Request and Response Logging
 
-All the request and response(with headers) are getting stored in the below location:-
+On the framework level, both request and response are being logged for each service call. No code change is required if new services are added. It contains all the information related to headers, cooking etc. This can be referred to verfiy the service at any point of time. On running the tests from local, previous log files are being removed. However once configured in jenkins, logs will be maintained based on build version.
+
+**Log Location**
 
 ```
 /target/logs
