@@ -80,11 +80,19 @@ public class HotelSearchSteps {
 		 SendRequest.verifyServiceSchema(response, "hotel-search.json");
 	}
 
+	/*
+	  Method is verifying-
+	 	*  cookies names, age and domain.
+	 	*  Header -contentType, X-CDN is verifying
+	 	*  Other assertions can also be added based on the service config
+	
+	 */
 	@Then("^Verify the hotel-search service response headers and primary cookies$")
 	public void verify_the_hotel_search_service_response_headers_and_primary_cookies() throws Throwable {
 		Assert.assertTrue("Cookies data is not valid", hotelSearch.verifyHotelSearchServiceRequestAndCookies(response));
 		Assert.assertEquals("content type header is not matching", "application/json",
 				response.getHeader("Content-Type"));
+		Assert.assertEquals("X-CDN header is not matching","Incapsula", response.getHeader("X-CDN"));
 		for (Header header : response.getHeaders()) {
 			System.out.println(header.getName() + "-" + header.getValue());
 		}
