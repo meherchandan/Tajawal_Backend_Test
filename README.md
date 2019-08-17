@@ -1,5 +1,5 @@
 # Tajawal_Backend_Test
-This project is created for the assignment submission for QA Backend Test for Tajawal/
+This project is created for the assignment submission for QA Backend Test for Tajawal.
 
 ### Getting Started
 Clone this repo to your local machine using https://github.com/meherchandan/Tajawal_Backend_Test.git
@@ -34,7 +34,7 @@ Response validation for geo-suggest **GET** service. Below are the summarized Te
 
 ```
 Verify response schema
-Verify response code
+Verify status code
 Verify response data for null and empty data check
 Verify the cookies received in the response
 Verify the headers
@@ -51,15 +51,14 @@ Below are the summarized Test case included in the tests
 
 ```
 Verify response schema
-Verify response code
+Verify status code
 Verify response data for null and empty data check
 Verify the cookies received
 Verify the headers
 Verify the subsequent request with cookies
 Comparision the response for with and without cookies request
-Verify the response with different data combinations
+Verify the response with different dates, room and guest combinations
 Verify the response error messages for bad requests
-Verify service response when no result found
 ```
 
 ## Request and Response Logging
