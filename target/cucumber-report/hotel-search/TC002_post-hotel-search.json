@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 33,
+        "name": "Verify hotel service response when destination is missing",
+        "description": "",
+        "id": "verify-post-hotel-search-service;verify-hotel-service-response-when-destination-is-missing;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1729580,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "create the request with date from next \"7\" days to \"14\" days and destination \"\" and placeid \"ChIJD7fiBh9u5kcRYJSMaMOCCwQ\" for scenario \"TC002_hotel-search_TD1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 40
+                },
+                {
+                  "val": "14",
+                  "offset": 52
+                },
+                {
+                  "val": "",
+                  "offset": 78
+                },
+                {
+                  "val": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ",
+                  "offset": 93
+                },
+                {
+                  "val": "TC002_hotel-search_TD1",
+                  "offset": 136
+                }
+              ],
+              "location": "HotelSearchSteps.create_the_request_with_date_from_next_days_to_days_and_destination_and_placeid_for_scenario(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80262,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "add room with \"2_ADT-1_CHD@3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2_ADT-1_CHD@3",
+                  "offset": 15
+                }
+              ],
+              "location": "HotelSearchSteps.add_room_with(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47191,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "add room with \"3_ADT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3_ADT",
+                  "offset": 15
+                }
+              ],
+              "location": "HotelSearchSteps.add_room_with(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461557009,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Send the hotel-search request",
+            "match": {
+              "location": "HotelSearchSteps.send_the_hotel_search_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36117,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Verify the hotel-search service status code for bad Request",
+            "match": {
+              "location": "HotelSearchSteps.verify_the_hotel_search_service_status_code_for_bad_Request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 141954715,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verify the error response for destination missing",
+            "match": {
+              "location": "HotelSearchSteps.verify_the_error_response_for_destination_missing()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@TC002_hotel-search"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Post Hotel search service",
+    "description": "",
+    "id": "verify-post-hotel-search-service",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/services/hotel-search.feature"
+  }
+]

@@ -1,0 +1,46 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 44
+Connection: keep-alive
+Access-Control-Allow-Headers: 
+Access-Control-Allow-Methods: HEAD, GET, POST, OPTIONS, PUT, DELETE
+Access-Control-Allow-Origin: www.tajawal.ae
+Cache-Control: no-cache, private
+CLIENT_IP: 94.58.160.238
+Content-Encoding: gzip
+Date: Sat, 17 Aug 2019 10:21:21 GMT
+Server: nginx/1.15.9
+Service-Worker-Allowed: /
+Strict-Transport-Security: max-age=31536000;
+Strict-Transport-Security: max-age=31536000;
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+x-encoded-content-encoding: gzip
+X-Forwarded-For: 94.58.160.238, 192.230.97.25, 70.132.2.82, 94.58.160.238
+X-GeoIP-City: Dubai
+X-GeoIP-Country: United Arab Emirates
+X-GeoIP-Country-Code: AE
+X-GeoIP-Region: Dubai
+x-inc-ip: 94.58.160.238
+X-is-Mobile: false
+X-Real-IP: 94.58.160.238
+X-UA-Compatible: IE=Edge,chrome=1
+X-XSS-Protection: 1; mode=block
+x_real_ip: 94.58.160.238
+X-Cache: Miss from cloudfront
+Via: 1.1 47d6f115cd7afcd6f492ee0f19186104.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DXB50-C1
+X-Amz-Cf-Id: 6bMpKVozB8iYi0SeWUVPJrPm--QYitNpCJJCH1nRBzRb5wDZS-dZiA==
+Set-Cookie: nlbi_1982617=vKavP5PCegEiUmKeBDQaAQAAAAD2Ja16DQi0X3fPorfADIde; path=/; Domain=.tajawal.ae
+X-Iinfo: 5-13870394-13870397 NNNN CT(0 0 0) RT(1566037280322 152) q(0 0 0 -1) r(7 7) U5
+X-CDN: Incapsula
+
+{
+    "hotels": [
+        
+    ],
+    "locations": [
+        
+    ]
+}

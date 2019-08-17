@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.tajawal.test.runCukes.getgeosuggest.TC001_GetGeoTest
+-------------------------------------------------------------------------------
+Tests run: 39, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 9.701 sec <<< FAILURE!
+Then Verify the geo-suggest service response data(| TC001_geo-suggest_TD3 | $#3421 | failed test case data --thumbnail missing |)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Hotel thumbnail is not valid URL for hotel name Maui Vista 3421 Condo by RedAwning
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.tajawal.test.pages.getgeoservice.getGeoServiceImplementation.verifyHotelthumbnail_url(getGeoServiceImplementation.java:97)
+	at com.tajawal.test.pages.getgeoservice.getGeoServiceImplementation.verifyHotelData(getGeoServiceImplementation.java:49)
+	at com.tajawal.test.steps.tajawalservicesimpl.GeoSuggestSteps.verify_the_geo_suggest_service_response_data(GeoSuggestSteps.java:79)
+	at ✽.Then Verify the geo-suggest service response data(src/test/resources/features/services/geo-suggest.feature:10)
+
+| TC001_geo-suggest_TD3 | $#3421 | failed test case data --thumbnail missing |  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Hotel thumbnail is not valid URL for hotel name Maui Vista 3421 Condo by RedAwning
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.tajawal.test.pages.getgeoservice.getGeoServiceImplementation.verifyHotelthumbnail_url(getGeoServiceImplementation.java:97)
+	at com.tajawal.test.pages.getgeoservice.getGeoServiceImplementation.verifyHotelData(getGeoServiceImplementation.java:49)
+	at com.tajawal.test.steps.tajawalservicesimpl.GeoSuggestSteps.verify_the_geo_suggest_service_response_data(GeoSuggestSteps.java:79)
+	at ✽.Then Verify the geo-suggest service response data(src/test/resources/features/services/geo-suggest.feature:10)
+

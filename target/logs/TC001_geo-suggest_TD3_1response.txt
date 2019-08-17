@@ -1,0 +1,105 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 593
+Connection: keep-alive
+Access-Control-Allow-Headers: 
+Access-Control-Allow-Methods: HEAD, GET, POST, OPTIONS, PUT, DELETE
+Access-Control-Allow-Origin: www.tajawal.ae
+Cache-Control: no-cache, private
+CLIENT_IP: 94.58.160.238
+Content-Encoding: gzip
+Date: Sat, 17 Aug 2019 10:21:21 GMT
+Server: nginx/1.15.9
+Service-Worker-Allowed: /
+Strict-Transport-Security: max-age=31536000;
+Strict-Transport-Security: max-age=31536000;
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+x-encoded-content-encoding: gzip
+X-Forwarded-For: 94.58.160.238, 192.230.97.25, 70.132.2.82, 94.58.160.238
+X-GeoIP-City: Dubai
+X-GeoIP-Country: United Arab Emirates
+X-GeoIP-Country-Code: AE
+X-GeoIP-Region: Dubai
+x-inc-ip: 94.58.160.238
+X-is-Mobile: false
+X-Real-IP: 94.58.160.238
+X-UA-Compatible: IE=Edge,chrome=1
+X-XSS-Protection: 1; mode=block
+x_real_ip: 94.58.160.238
+X-Cache: Miss from cloudfront
+Via: 1.1 47d6f115cd7afcd6f492ee0f19186104.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DXB50-C1
+X-Amz-Cf-Id: TDOX3z77fnwsQptWq1119nkWzblFfUViH_X5i8YZLtW1aonOuuYYOQ==
+Set-Cookie: visid_incap_1982617=B3Nbci4eSaq+4Vqoyr0qNyHVV10AAAAAQUIPAAAAAADkbWcRHTJnivVDPC6quyNl; expires=Sat, 15 Aug 2020 11:06:33 GMT; path=/; Domain=.tajawal.ae
+Set-Cookie: nlbi_1982617=STMBMEzc/QGGsW+GBDQaAQAAAABaiBk+xYlDKJ9V3IUUkVD4; path=/; Domain=.tajawal.ae
+Set-Cookie: incap_ses_774_1982617=nklneY1AySJsPpO5vs29CiHVV10AAAAAiIorcsC3cth79BenFwfICg==; path=/; Domain=.tajawal.ae
+Set-Cookie: ___utmvmVzutFapB=jPssokqnkOC; path=/; Max-Age=900
+Set-Cookie: ___utmvaVzutFapB=AqKAbha; path=/; Max-Age=900
+Set-Cookie: ___utmvbVzutFapB=sZC XJTOealp: cta; path=/; Max-Age=900
+X-Iinfo: 7-11719368-11719375 NNNN CT(0 0 0) RT(1566037281282 152) q(0 0 0 0) r(2 2) U5
+X-CDN: Incapsula
+
+{
+    "hotels": [
+        {
+            "hotelId": 10986858,
+            "name": "3421 E Avenida Fey Norte Home 3 Bedrooms 2 Bathrooms Home",
+            "city": "Palm Springs",
+            "country": "United States",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/4ce7ff18-3f6b-4159-9278-afa214b96c16.jpeg",
+            "displayType": "Hotel",
+            "latitude": 33.843519,
+            "longitude": -116.509014,
+            "isActive": 1
+        },
+        {
+            "hotelId": 9449894,
+            "name": "Maui Vista 3421 Condo by RedAwning",
+            "city": "Kihei",
+            "country": "United States",
+            "thumbnail_url": "",
+            "displayType": "Hotel",
+            "latitude": 20.72602,
+            "longitude": -156.44679,
+            "isActive": 1
+        },
+        {
+            "hotelId": 9207298,
+            "name": "Carolina Place 3421 by RedAwning",
+            "city": "Hilton Head Island",
+            "country": "United States",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/d279b566-c1de-4c1d-ac9c-7701dd77aff3.jpeg",
+            "displayType": "Hotel",
+            "latitude": 32.14571,
+            "longitude": -80.77985,
+            "isActive": 1
+        },
+        {
+            "hotelId": 6600537,
+            "name": "Paradise Palms Resort #3421",
+            "city": "Kissimmee",
+            "country": "United States",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/87eede55-ebe7-4eae-a657-4a3dd65f34db.jpeg",
+            "displayType": "Hotel",
+            "latitude": 28.33885,
+            "longitude": -81.6479,
+            "isActive": 1
+        },
+        {
+            "hotelId": 8556853,
+            "name": "OYO 3421 18 Square",
+            "city": "Hyderabad",
+            "country": "India",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/1fd2911a-c755-4dc6-a6c7-4dfdad6c8c81.jpeg",
+            "displayType": "Hotel",
+            "latitude": 17.438097,
+            "longitude": 78.390034,
+            "isActive": 1
+        }
+    ],
+    "locations": [
+        
+    ]
+}

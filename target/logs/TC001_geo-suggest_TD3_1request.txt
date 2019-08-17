@@ -1,0 +1,12 @@
+Request method:	GET
+Request URI:	https://www.tajawal.ae/api/hotel/ahs/geo-suggest?query=%24%233421
+Proxy:			<none>
+Request params:	<none>
+Query params:	query=$#3421
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

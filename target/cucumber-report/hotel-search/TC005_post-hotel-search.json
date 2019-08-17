@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 76,
+        "name": "Verify hotel service response when invalid dates are added to the request",
+        "description": "",
+        "id": "verify-post-hotel-search-service;verify-hotel-service-response-when-invalid-dates-are-added-to-the-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2062563,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "create the request with date from next \"7\" days to \"5\" days and destination \"Paris\" and placeid \"ChIJD7fiBh9u5kcRYJSMaMOCCwQ\" for scenario \"TC005_hotel-search_TD1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 40
+                },
+                {
+                  "val": "5",
+                  "offset": 52
+                },
+                {
+                  "val": "Paris",
+                  "offset": 77
+                },
+                {
+                  "val": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ",
+                  "offset": 97
+                },
+                {
+                  "val": "TC005_hotel-search_TD1",
+                  "offset": 140
+                }
+              ],
+              "location": "HotelSearchSteps.create_the_request_with_date_from_next_days_to_days_and_destination_and_placeid_for_scenario(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68959,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "add room with \"2_ADT-1_CHD@3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2_ADT-1_CHD@3",
+                  "offset": 15
+                }
+              ],
+              "location": "HotelSearchSteps.add_room_with(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 471912857,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Send the hotel-search request",
+            "match": {
+              "location": "HotelSearchSteps.send_the_hotel_search_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46433,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Verify the hotel-search service status code for bad Request",
+            "match": {
+              "location": "HotelSearchSteps.verify_the_hotel_search_service_status_code_for_bad_Request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36486623,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Verify the error response for invalid dates",
+            "match": {
+              "location": "HotelSearchSteps.verify_the_error_response_for_invalid_dates()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 66,
+            "name": "@TC005_hotel-search"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Post Hotel search service",
+    "description": "",
+    "id": "verify-post-hotel-search-service",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/services/hotel-search.feature"
+  }
+]

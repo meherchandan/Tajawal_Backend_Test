@@ -1,0 +1,529 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 19,
+        "name": "I want to verify success header and response with correct cookies for geo-suggest service",
+        "description": "",
+        "id": "verify-response-for-geo-suggest-services;i-want-to-verify-success-header-and-response-with-correct-cookies-for-geo-suggest-service;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 223565251,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Form the request for geo-suggest service with query \"Paris\" for scenario \"TC001_geo-suggest_TD1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paris",
+                  "offset": 53
+                },
+                {
+                  "val": "TC001_geo-suggest_TD1",
+                  "offset": 74
+                }
+              ],
+              "location": "GeoSuggestSteps.form_the_request_for_geo_suggest_service_with_query_for_scenario(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2761564267,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Send the geo-suggest service request without cookies",
+            "match": {
+              "location": "GeoSuggestSteps.send_the_geo_suggest_service_request_without_cookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1589539,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the service status code",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_service_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 646151695,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the geo-suggest service response schema",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_chema()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2568244,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the geo-suggest service response headers and primary cookies",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_headers_and_primary_cookies()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 419469318,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the geo-suggest service response data",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 832146106,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Send the geo-suggest service request with primary cookies",
+            "match": {
+              "location": "GeoSuggestSteps.send_the_geo_suggest_service_request_with_primary_cookies()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1326379,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify the geo-suggest service response header",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10079449,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "compare the geo-suggest service response data with primary response",
+            "match": {
+              "location": "GeoSuggestSteps.compare_the_geo_suggest_service_response_data_with_primary_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 791072385,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Send the geo-suggest service request with secodary cookies",
+            "match": {
+              "location": "GeoSuggestSteps.send_the_geo_suggest_service_request_with_secodary_cookies()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3160349,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "compare the geo-suggest service response data with primary response",
+            "match": {
+              "location": "GeoSuggestSteps.compare_the_geo_suggest_service_response_data_with_primary_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46509,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify no cookies available in response",
+            "match": {
+              "location": "GeoSuggestSteps.verify_no_cookies_available_in_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TC001_geo-suggest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "I want to verify success header and response with correct cookies for geo-suggest service",
+        "description": "",
+        "id": "verify-response-for-geo-suggest-services;i-want-to-verify-success-header-and-response-with-correct-cookies-for-geo-suggest-service;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 152932,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Form the request for geo-suggest service with query \"$#%$*\" for scenario \"TC001_geo-suggest_TD2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$#%$*",
+                  "offset": 53
+                },
+                {
+                  "val": "TC001_geo-suggest_TD2",
+                  "offset": 74
+                }
+              ],
+              "location": "GeoSuggestSteps.form_the_request_for_geo_suggest_service_with_query_for_scenario(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1246036322,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Send the geo-suggest service request without cookies",
+            "match": {
+              "location": "GeoSuggestSteps.send_the_geo_suggest_service_request_without_cookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44002,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the service status code",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_service_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7097779,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the geo-suggest service response schema",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_chema()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 782420,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the geo-suggest service response headers and primary cookies",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_headers_and_primary_cookies()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16522938,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the geo-suggest service response data",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1581019399,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Send the geo-suggest service request with primary cookies",
+            "match": {
+              "location": "GeoSuggestSteps.send_the_geo_suggest_service_request_with_primary_cookies()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 619775,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify the geo-suggest service response header",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 455737,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "compare the geo-suggest service response data with primary response",
+            "match": {
+              "location": "GeoSuggestSteps.compare_the_geo_suggest_service_response_data_with_primary_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 965314429,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Send the geo-suggest service request with secodary cookies",
+            "match": {
+              "location": "GeoSuggestSteps.send_the_geo_suggest_service_request_with_secodary_cookies()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 565516,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "compare the geo-suggest service response data with primary response",
+            "match": {
+              "location": "GeoSuggestSteps.compare_the_geo_suggest_service_response_data_with_primary_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36953,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify no cookies available in response",
+            "match": {
+              "location": "GeoSuggestSteps.verify_no_cookies_available_in_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TC001_geo-suggest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "I want to verify success header and response with correct cookies for geo-suggest service",
+        "description": "",
+        "id": "verify-response-for-geo-suggest-services;i-want-to-verify-success-header-and-response-with-correct-cookies-for-geo-suggest-service;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 99048,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Form the request for geo-suggest service with query \"$#3421\" for scenario \"TC001_geo-suggest_TD3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$#3421",
+                  "offset": 53
+                },
+                {
+                  "val": "TC001_geo-suggest_TD3",
+                  "offset": 75
+                }
+              ],
+              "location": "GeoSuggestSteps.form_the_request_for_geo_suggest_service_with_query_for_scenario(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 422137026,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Send the geo-suggest service request without cookies",
+            "match": {
+              "location": "GeoSuggestSteps.send_the_geo_suggest_service_request_without_cookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60637,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the service status code",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_service_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26392924,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the geo-suggest service response schema",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_chema()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 402396,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the geo-suggest service response headers and primary cookies",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_headers_and_primary_cookies()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30577224,
+              "error_message": "java.lang.AssertionError: Hotel thumbnail is not valid URL for hotel name Maui Vista 3421 Condo by RedAwning\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat com.tajawal.test.pages.getgeoservice.getGeoServiceImplementation.verifyHotelthumbnail_url(getGeoServiceImplementation.java:97)\n\tat com.tajawal.test.pages.getgeoservice.getGeoServiceImplementation.verifyHotelData(getGeoServiceImplementation.java:49)\n\tat com.tajawal.test.steps.tajawalservicesimpl.GeoSuggestSteps.verify_the_geo_suggest_service_response_data(GeoSuggestSteps.java:79)\n\tat ✽.Then Verify the geo-suggest service response data(src/test/resources/features/services/geo-suggest.feature:10)\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Verify the geo-suggest service response data",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Send the geo-suggest service request with primary cookies",
+            "match": {
+              "location": "GeoSuggestSteps.send_the_geo_suggest_service_request_with_primary_cookies()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Verify the geo-suggest service response header",
+            "match": {
+              "location": "GeoSuggestSteps.verify_the_geo_suggest_service_response_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "compare the geo-suggest service response data with primary response",
+            "match": {
+              "location": "GeoSuggestSteps.compare_the_geo_suggest_service_response_data_with_primary_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Send the geo-suggest service request with secodary cookies",
+            "match": {
+              "location": "GeoSuggestSteps.send_the_geo_suggest_service_request_with_secodary_cookies()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "compare the geo-suggest service response data with primary response",
+            "match": {
+              "location": "GeoSuggestSteps.compare_the_geo_suggest_service_response_data_with_primary_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Verify no cookies available in response",
+            "match": {
+              "location": "GeoSuggestSteps.verify_no_cookies_available_in_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TC001_geo-suggest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify response for geo-suggest services",
+    "description": "",
+    "id": "verify-response-for-geo-suggest-services",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/services/geo-suggest.feature"
+  }
+]

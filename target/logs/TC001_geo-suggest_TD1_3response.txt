@@ -1,0 +1,147 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 776
+Connection: keep-alive
+Access-Control-Allow-Headers: 
+Access-Control-Allow-Methods: HEAD, GET, POST, OPTIONS, PUT, DELETE
+Access-Control-Allow-Origin: www.tajawal.ae
+Cache-Control: no-cache, private
+CLIENT_IP: 94.58.160.238
+Content-Encoding: gzip
+Date: Sat, 17 Aug 2019 10:21:17 GMT
+Server: nginx/1.15.9
+Service-Worker-Allowed: /
+Strict-Transport-Security: max-age=31536000;
+Strict-Transport-Security: max-age=31536000;
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+x-encoded-content-encoding: gzip
+X-Forwarded-For: 94.58.160.238, 192.230.97.25, 70.132.2.148, 94.58.160.238
+X-GeoIP-City: Dubai
+X-GeoIP-Country: United Arab Emirates
+X-GeoIP-Country-Code: AE
+X-GeoIP-Region: Dubai
+x-inc-ip: 94.58.160.238
+X-is-Mobile: false
+X-Real-IP: 94.58.160.238
+X-UA-Compatible: IE=Edge,chrome=1
+X-XSS-Protection: 1; mode=block
+x_real_ip: 94.58.160.238
+X-Cache: Miss from cloudfront
+Via: 1.1 a31366a53812bf34f3391396b61f5832.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DXB50-C1
+X-Amz-Cf-Id: BlURLb-ncBbGqajIs2acuFLXIRPGcHQGafQY7MeCrYJZuJHSoDel1g==
+Set-Cookie: nlbi_1982617=se2+HJpaQ2FlsgxCBDQaAQAAAACBNhw645tx4hFhjQ719CE4; path=/; Domain=.tajawal.ae
+X-Iinfo: 7-11719121-11718016 PNNN RT(1566037276648 437) q(0 0 0 -1) r(2 2) U5
+X-CDN: Incapsula
+
+{
+    "hotels": [
+        {
+            "hotelId": 4026401,
+            "name": "Splendid Etoile Hotel",
+            "city": "Paris",
+            "country": "France",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/58a45c7d-beef-42fa-a5f3-167610ba59a9.jpeg",
+            "displayType": "Hotel",
+            "latitude": 48.875126,
+            "longitude": 2.293814,
+            "isActive": 1
+        },
+        {
+            "hotelId": 8755005,
+            "name": "Coeur de Paris Hotel de Ville",
+            "city": "Paris",
+            "country": "France",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/883503e7-e565-4825-9a87-40d07cdd8c6c.jpeg",
+            "displayType": "Hotel",
+            "latitude": 48.86349,
+            "longitude": 2.3577,
+            "isActive": 1
+        },
+        {
+            "hotelId": 8414028,
+            "name": "Artisan Lofts Paris Close Eiffel Tower",
+            "city": "Paris",
+            "country": "France",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/dd553c45-0fe6-4bf5-9de5-93207492151e.jpeg",
+            "displayType": "Hotel",
+            "latitude": 48.84124,
+            "longitude": 2.28948,
+            "isActive": 1
+        },
+        {
+            "hotelId": 4558758,
+            "name": "HÔtel De L'aveyron",
+            "city": "Paris",
+            "country": "France",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/2a3ecb2f-1b2d-468a-88f6-645999c7e2ca.jpeg",
+            "displayType": "Hotel",
+            "latitude": 48.8467,
+            "longitude": 2.37009,
+            "isActive": 1
+        },
+        {
+            "hotelId": 4028850,
+            "name": "Relais Saint Germain",
+            "city": "Paris",
+            "country": "France",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/de49bfa8-dbd3-4205-a732-c192fa8b1636.jpeg",
+            "displayType": "Hotel",
+            "latitude": 48.851893,
+            "longitude": 2.338746,
+            "isActive": 1
+        }
+    ],
+    "locations": [
+        {
+            "name": "Paris",
+            "placeId": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ",
+            "source": "google",
+            "country": "France",
+            "city": "Paris",
+            "displayType": "Location",
+            "googleType": {
+                "TypeNameEN": "city",
+                "TypeNameAR": "مدينة"
+            }
+        },
+        {
+            "name": "Paris",
+            "placeId": "ChIJmysnFgZYSoYRSfPTL2YJuck",
+            "source": "google",
+            "country": "USA",
+            "city": "TX",
+            "displayType": "Location",
+            "googleType": {
+                "TypeNameEN": "city",
+                "TypeNameAR": "مدينة"
+            }
+        },
+        {
+            "name": "Paris-Orly Airport (ORY)",
+            "placeId": "ChIJHTtq-rF15kcRIoTbQ9feeJ0",
+            "source": "google",
+            "country": "France",
+            "city": "Orly",
+            "displayType": "Location",
+            "googleType": {
+                "TypeNameEN": "airport",
+                "TypeNameAR": "المطار"
+            }
+        },
+        {
+            "name": "Paris-Charles de Gaulle Airport (CDG)",
+            "placeId": "ChIJW89MjgM-5kcRLKZbL5jgKwQ",
+            "source": "google",
+            "country": "France",
+            "city": "Roissy-en-France",
+            "displayType": "Location",
+            "googleType": {
+                "TypeNameEN": "airport",
+                "TypeNameAR": "المطار"
+            }
+        }
+    ]
+}
