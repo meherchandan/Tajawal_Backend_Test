@@ -82,8 +82,6 @@ Please setup below tools before running the test
  
 - **src.test.resources** - Service Schema files and config files has been defined on the resources root folder.
 
-### Useful Folders
-- **Target/Log** -Both request and response are being logged for each service call. It contains all the information related to headers, cooking etc. This can be referred to verfiy the service at any point of time. On running the tests from local, previous log files are being removed. However once configured in jenkins, logs will be maintained based on build version.
 
 ## Running the tests
 
@@ -132,7 +130,9 @@ Verify the response error messages for bad requests
 
 ## Request and Response Logging
 
-All the request and response(with headers) are getting stored in the below location:-
+On the framework level, both request and response are being logged for each service call. No code change is required if new services are added. It contains all the information related to headers, cooking etc. This can be referred to verfiy the service at any point of time. On running the tests from local, previous log files are being removed. However once configured in jenkins, logs will be maintained based on build version.
+
+**Log Location**
 
 ```
 /target/logs
